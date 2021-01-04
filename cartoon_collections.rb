@@ -16,5 +16,5 @@ end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   planeteer_calls.find do |maybe_call|
-    cheeses_type.include?(maybe_cheese)
+    valid_calls.include?(maybe_cheese)
 end
