@@ -13,7 +13,7 @@ def long_planeteer_calls(planeteer_calls)
    planeteer_calls.any? { |word| word.length > 4}
 end
 
-def find_valid_calls(planeteer_calls)
+=begin def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   planeteer_calls.find do |item|
     valid_calls.include?(item)
